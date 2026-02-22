@@ -1,0 +1,19 @@
+Each light → 14 AWG ground
+Join at rear ground bus
+12 AWG from bus → Battery negative
+
+Wiring-Diagrams/
+│
+├── 01_System_Architecture.md
+├── 02_Rear_Lighting_Harness.md
+├── 03_Fuse_Block_Layout.md
+├── 04_Grounding_Strategy.md
+├── schematics/
+│     ├── rear_lighting_combined.svg
+│     └── fuse_block_layout.svg
+└── parts_list.md
+
+
+27W ÷ 12.6V = 2.14A per bulb
+2 bulbs = 4.3A
+15A fuse gives safe margin.
