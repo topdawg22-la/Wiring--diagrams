@@ -1,0 +1,33 @@
++12V Battery
+                              │
+                        30A Main Fuse
+                              │
+                        Fuse Block
+               ┌──────────────┼──────────────┐
+               │              │              │
+             10A            15A            15A
+             Tail          Brake           Turn
+               │              │              │
+        Headlight Switch   Brake Switch   Flasher Relay
+               │              │              │
+               │              │        ┌─────┴─────┐
+               │              └────────┤ Turn Switch│
+               │                       └─────┬─────┘
+               │                             │
+               │                    ┌────────┴────────┐
+               │                    │                 │
+           Brown Wire          Yellow Wire       Green Wire
+           (Tail Feed)         (Left Out)        (Right Out)
+
+Rear Lights:
+LEFT RED:
+  Brown  → Tail
+  Yellow → Brake/Turn
+  Black  → Ground
+
+RIGHT RED:
+  Brown  → Tail
+  Green  → Brake/Turn
+  Black  → Ground
+
+All grounds → Ground Bus → 12 AWG → Battery (-)
